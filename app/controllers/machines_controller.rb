@@ -4,6 +4,7 @@ class MachinesController < ApplicationController
   end
 
   def show
+    # binding.pry
     @machine = Machine.find(params[:id])
   end
 end
